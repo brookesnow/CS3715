@@ -39,6 +39,19 @@ function createRegister(){
 	
 	var value = document.getElementById("courseNum").value;
 	var valueJSON = {"value " : value};
+	var request = new XMLHttpRequest();   // new HttpRequest instance 
+	var url = "http://sc-1.cs.mun.ca/Student_Page.html";
+	request.open("GET", url);
+	request.onload = function(){
+		if(request.status == 200){
+			updateFile(request.responseText);
+		}
+	};
+	request.send(null);
+	
+	
+	
+	
 	localStorage.setItem(key, value);
 	
 	registersArray.push(key);
