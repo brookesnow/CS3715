@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<head>
+	<title>Student Page - Constantine Bojangles</title>
+	<link type="text/css" rel="stylesheet" href="main.css"
+		media = "screen and (min-width: 481px)">
+	<link type = "text/css" href = "site_mobile.css" rel = "stylesheet" media ="screen and (max-width: 480px)">
+	<script src = "SCourses.js"></script>
+	
+</head>
+<body>
+<div id = "allcontent">
+	<h1 id = "Main_header">
+		<img id = "homelogo"  src = "/logo.png" alt ="Logo">
+		<p id = "Student_Name">
+			Constantine Bojangles
+		</p>
+		
+		<p id = "Student_Vitals">
+			Campus: Main</br> 
+			ID: 12345678</br>
+			Year: Second</br>
+			Email: cboj123@wu.com</br>
+		</p>
+	</h1>
+
+	<div class="navi">
+		<a href = "Campus_Main.html">Home</a>
+		<a href= "MainCatalog.html">Main Campus</a>
+		<a href ="TechnologyCatalogue.html">Technology Campus</a>
+		<a href = "ArtsCatalog.html">Arts Campus</a>
+		<a href = "Student_Page.html">Student</a>
+		
+		
+	</div>
+
+
+<!--
+	<h2 id = "Student_Courses">Your Courses</h2>
+	<div class = nav>
+		<div id = "Student_Course_Area">
+	
+			<ul id = "Student_Course_List"></ul>
+		
+		
+		</div>
+	</div>
+</div>
+-->
+
+
+
+<div id="registers">
+      <h3 id = "register_title">Register for a course:</h3>
+     <form action = "/getdata" method = "post">
+			Course Number:<input type="text" id="courseNum">
+			Section:<input type="text" name="section"><br>
+			<input id="reg_button" type="button" value="Register">
+     </form>
+     
+     <ul id = "registers_list"></ul>
+    </div>
+	
+
+
+		
+	<div id="footer">
+      &copy; 2017, Western University
+      <br/>
+      All trademarks and registered trademarks appearing on this site are the property of Western University and their respective owners.
+    </div>
+  
+</div>
+</body>
+</html>

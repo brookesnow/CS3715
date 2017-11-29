@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main Campus Course Catalog</title>
+<link type="text/css" rel="stylesheet" href="NewCSS.css">
+<script src="MCourses.js"></script>
+
+</head>
+<body>
+	<img class="logo_campus_page" src = "/logo.png" alt ="Logo">
+	<h1 id="main-header" class="campush1">Main Campus</h1>
+	
+	<div class="navi">
+		<a href = "Campus_Main.html">Home</a>
+		<a href= "MainCatalog.html">Main Campus</a>
+		<a href ="TechnologyCatalogue.html">Technology Campus</a>
+		<a href = "ArtsCatalog.html">Arts Campus</a>
+		<a href = "MainPreviousCourses.html">Previous Courses</a>
+		<a href = "Student_Page.html">Student</a>
+		
+		
+	</div>
+	
+	<div class="catalog" id="main-catalog">
+	
+	<form action ="" method="post" id=courseAdder>
+		<h2>Add A Course:</h2>
+		Course Name: <input type="text" id="courseName">
+		Course Number: <input type="text" id="courseNum">
+		Room: <input type="text" id="room">
+		<input type="submit" value="Submit" id="submitButton">
+	</form>
+		
+			<table id = "courseTable">
+				<tr>
+					<th>Course Name</th>
+					<th>Course Number</th>
+					<th>Room</th>
+			</table>	
+		</div>
+		
+		<div class="register">
+<form action ="" method="post">
+ <h3>Register for a course:</h3>
+	<p>Course Number:<input type="text" name="courseNum">
+	Section:<input type="text" name="section"><br>
+</p>
+<p>
+<input id="reg-button" type="submit" value="Register">
+</p>
+</form>	
+</div>
+
+
+
+<footer>
+      &copy; 2017, Western University
+      <br />
+      All trademarks and registered trademarks appearing on this site are the property of their respective owners.
+   </footer>
+</body>
+
+</html>

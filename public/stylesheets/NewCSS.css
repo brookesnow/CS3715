@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+	color: #BDB76B;
+	font-size: 50px;
+	padding: 20px;
+	background-color: #191970;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+}
+
+.navi {
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: -10px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.navi a {
+	border-right: solid thin black;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+
+.campush1 {
+		padding: 50px;
+	
+}
+
+#arts-header {
+		background-color: #8B0000;	
+}
+
+#tech-header {
+		background-color: #006400;	
+	
+}
+
+p {
+	text-align: center;
+}
+
+#homeImage {
+	border: solid black medium;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.nav {
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: -10px;
+	padding: 10px;
+}
+
+.nav a {
+	border-right: solid thin black;
+	margin-right: 20px;
+	padding-right: 10px;
+}
+
+.about {
+	text-align: center;
+}
+
+.logo_campus_page {
+	float: left;
+	padding-top: 20px;
+}
+
+.campus_info {
+	float: right;
+	margin: 50px;
+}
+
+
+.course_offerings_placement{
+	padding-top: 80px;
+	
+}
+
+.course-offerings-list {
+	float:left;
+	
+}
+
+table {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	width: 95%;
+	
+}
+
+th, td {
+	border: thin black solid;
+	padding: 15px;
+}
+
+.catalog {
+	font-size: 120%;
+}
+
+#tech-catalog th {
+	background-color: #006400;
+	color: #BDB76B;
+}
+
+#tech-catalog td {
+	background-color: #F0FFF0;
+}
+
+#arts-catalog th {
+	background-color: #8B0000;
+	color: #BDB76B;	
+}
+
+#arts-catalog td {
+	background-color: #FFFAF0;
+}
+
+#courseAdder {
+	margin-bottom: 20px;
+	
+}
+
+#main-catalog th {
+	background-color: #191970;
+	color: #BDB76B;
+}
+
+#main-catalog td {
+	background-color: #F5F5F5;
+}
+
+
+
+.register{
+	text-align: center;
+	border: thin white solid;
+	background-color;
+	font-size: 120%;
+	padding-left: 10px;
+	margin: 10px; 0px; 0px; 0px;
+	align: center;
+	}
+
+input {
+	margin-right: 10px;
+}
+
+#reg-button {
+	background-color: maroon;
+	padding: 5px;
+	color: white;
+	font-size: 75%
+}
+
+footer {
+	clear:both;
+	padding: 5px;
+	text-align: center;
+}
+	
+

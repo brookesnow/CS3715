@@ -1,0 +1,144 @@
+@media only screen and (max-width: 480px){
+		#Main_header{
+			background-color: orange;
+		}
+		
+		.nav {
+			
+			background-color: white;
+			margin-top: 2px;
+			margin-left: 2px;
+			margin-right: 2px;
+			margin-bottom: 0px;
+			padding: 10px;
+			padding-right: 50px;
+			
+		}
+	
+		#main_thumb{
+		float: right;
+		padding: 10px;
+	}
+	
+	#homelogo{
+	
+	padding-right: 10em;
+	padding-top: -4em;
+	
+	
+}
+	#Welcome{
+	color: black;
+	text-align: center;
+	padding-right: 0px;
+	}
+
+	#add_phone{
+	color: black;
+	font-size: 80%;
+	text-align: right;
+	padding-right: 5px;
+	
+	}	
+	
+	#main_info{
+		font-family: Palatino Linotype;
+		text-align: left;
+		padding: 10px;
+		font-size: 15px;
+	}
+	
+	
+	.main_camp{
+		width: 400px;
+		height: 145px;
+		margin: 50px;
+		background-color : green;
+		
+	}
+	
+	#tech_thumb{
+		float: left;
+		padding: 10px;
+	}
+	
+	#tech_info{
+		font-family: Palatino Linotype;
+		text-align: right;
+		padding: 10px;
+		font-size: 15px;
+	}
+	
+	.tech_camp{
+		width: 400px;
+		height: 165px;
+		margin: 50px;
+		background-color : aqua;
+		
+	}
+	
+	#arts_thumb{
+		float: right;
+		padding: 10px;
+	}
+	
+	#arts_info{
+		font-family: Palatino Linotype;
+		text-align: left;
+		padding: 10px;
+		font-size: 15px;
+	}
+	
+	.arts_camp{
+		width: 400px;
+		height: 145px;
+		margin: 50px;
+		background-color : yellow;
+		
+	}
+	
+	#Campuses{
+	
+	text-align: center;
+	padding-top: 2em;
+	color: black;
+	}
+	
+	#artsh1 {
+	color: #DDDDFF;
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	background-color: #ed560b;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+	}
+
+
+#events {
+	border: solid thin black;
+	font-family: Georgia;
+	background-color: #e29d5f;
+	font-size: 100%;
+	padding: 15px;
+	margin: 0px 20px 20px 55px;
+	width: 200px;
+}
+
+#event_title{
+	text-align: center;
+	border: solid thin black;
+	font-family: Georgia;
+	background-color: beige ;
+}
+
+#footer {
+	background-color: #c0c0c0;
+	color: #000000;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 100%;
+	clear: both;
+}

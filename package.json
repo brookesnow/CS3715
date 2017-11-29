@@ -1,0 +1,18 @@
+{
+  "name": "mikew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "request": "^2.83.0",
+    "esversion": "6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
