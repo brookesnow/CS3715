@@ -3,8 +3,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <head>
-	<title>Student Page - Constantine Bojangles</title>
-	<link type="text/css" rel="stylesheet" href="main.css"
+	<title>Students</title>
+	<link type="text/css" rel="stylesheet" href="NewCSS.css"
 		media = "screen and (min-width: 481px)">
 	<link type = "text/css" href = "site_mobile.css" rel = "stylesheet" media ="screen and (max-width: 480px)">
 	<script src = "SCourses.js"></script>
@@ -12,27 +12,17 @@
 </head>
 <body>
 <div id = "allcontent">
-	<h1 id = "Main_header">
-		<img id = "homelogo"  src = "/logo.png" alt ="Logo">
-		<p id = "Student_Name">
-			Constantine Bojangles
-		</p>
-		
-		<p id = "Student_Vitals">
-			Campus: Main</br> 
-			ID: 12345678</br>
-			Year: Second</br>
-			Email: cboj123@wu.com</br>
-		</p>
-	</h1>
+<div id="stuHead">
+<img id = "homelogo"  src = "images/logo.png" alt ="Logo">
+	<h1 class="campush1" id="main-header">Students</h1>
+	</div>
 
 	<div class="navi">
 		<a href = "Campus_Main.html">Home</a>
 		<a href= "MainCatalog.html">Main Campus</a>
 		<a href ="TechnologyCatalogue.html">Technology Campus</a>
 		<a href = "ArtsCatalog.html">Arts Campus</a>
-		<a href = "Student_Page.html">Student</a>
-		
+		<a href = "PreviousCourses.html">Previous Courses</a>
 		
 	</div>
 
@@ -52,10 +42,10 @@
 
 
 
-<div id="registers">
+<div id="register">
       <h3 id = "register_title">Register for a course:</h3>
-     <form action = "/getdata" method = "post">
-			Course Number:<input type="text" id="courseNum">
+     <form>
+			Course Number:<input type="text" id="courseNum"></br>
 			Section:<input type="text" name="section"><br>
 			<input id="reg_button" type="button" value="Register">
      </form>
@@ -66,11 +56,11 @@
 
 
 		
-	<div id="footer">
+	<footer>
       &copy; 2017, Western University
       <br/>
       All trademarks and registered trademarks appearing on this site are the property of Western University and their respective owners.
-    </div>
+    </footer>
   
 </div>
 </body>
