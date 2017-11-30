@@ -26,3 +26,8 @@ Point Distribution (for 4 members of the group):
 	Brooke Snow - 15 (CSS/HTML/Fixed JS files, JS for Student and Course Pages)
 	Pranav Pradeep - 10 (HTML/Functionality for Google Map implementation)
 	Morgan Marshall - 0 (Did not supply anything)
+
+
+ALSO INCLUDED
+
+A non-website related HTML document which can be found at http://sc-1.cs.mun.ca/GLOBALSTORAGE.html which is our showcase that we were able to recieve the XML request from the server without using localstorage. When you enter data into the text field, it will be then grabbed and written out to a .json file called CONTENT.json.
