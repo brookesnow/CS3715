@@ -15,6 +15,7 @@ form{
 
 
 #allcontent{
+	overflow:auto;
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -87,14 +88,14 @@ p {
 }
 
 .nav {
-	width: 200px;
+	z: 5;
+	width: 70%;
 	background-color: white;
 	margin-top: 0px;
-	margin-left: -10px;
-	margin-right: 200px;
-	margin-bottom: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
 	padding: 10px;
-	padding-right: 575px;
 	float: right;
 	position: absolute:
 }
@@ -141,7 +142,7 @@ p {
 
 #Campuses{
 	
-	padding-left: 700px;
+	padding-left: 60%;
 	color: black;
 }
 
@@ -230,13 +231,14 @@ p {
 }
 
 #events {
-	
+	overflow: hidden;
+	z: 5;
 	font-family: Arial;
 	background-color: #DCDCDC;
 	font-size: 100%;
 	padding: 25px;
 	color: black;
-	margin: 50px 0px -100px 50px;
+	margin: 50px 10px -100px 30px;
 	width: 200px;
 	position: absolute;
 	float: float;
