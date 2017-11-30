@@ -1,114 +1,201 @@
 @media only screen and (max-width: 480px){
-		#Main_header{
-			background-color: orange;
-		}
-		
-		.nav {
-			
-			background-color: white;
-			margin-top: 2px;
-			margin-left: 2px;
-			margin-right: 2px;
-			margin-bottom: 0px;
-			padding: 10px;
-			padding-right: 50px;
-			
-		}
+#Main_header{
+	background-color: #191970;
+	margin-top: -10px;
+	border-bottom: solid 5px #BDB76B;
+}
+
+#stuHead {
+	background-color: #191970;
+}
+
+#stuHead h1 {
+	padding-left: 35%;
+	color:  #BDB76B;
 	
-		#main_thumb{
-		float: right;
-		padding: 10px;
+	}
+
+
+#main-header{
+	background-color: #191970;
+	margin-top: -10px;
+	border-bottom: solid 5px #BDB76B;
+	font-size: 200%;
+	text-align: center;
+}
+	
+	#stuHead h1 {
+	padding-left: 30%;
+	color:  #BDB76B;
+	padding-bottom: 15%;
 	}
 	
-	#homelogo{
+	#stuHead img{
+	margin-top: 10%;
+	margin-bottom: -15%;
+	}
+		
+#tech-header{
+	background-color: #006400;
+	margin-top: -10px;
+	border-bottom: solid 5px #BDB76B;
+	font-size: 200%;
+}
+
+#arts-header{
+	background-color: #8B0000;
+	margin-top: -10px;
+	border-bottom: solid 5px #BDB76B;
+	font-size: 200%;
+}
+		
+#allcontent {
+	width: 445px;
 	
-	padding-right: 10em;
-	padding-top: -4em;
+}
+
+h2 {
+	font-size: 120%;
+	text-align: center;
+	margin-top: 20px;
+}
+		
+.navi {
+			
+	background-color: #696969;
+	margin-top: -21px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 0px;
+	padding: 3px;
 	
 	
 }
-	#Welcome{
-	color: black;
-	text-align: center;
-	padding-right: 0px;
-	}
 
-	#add_phone{
-	color: black;
+.navi a {
+	color: white;
+	padding: 2px;
+	border: none;
+}
+
+#m_c_nav {
+	margin: -15px;
+	margin-top: 10px;
 	font-size: 80%;
+	
+		
+}
+
+#m_c_nav a{
+	margin: 3px;
+	margin-left: 5px;
+	padding-left: 4px;
+}
+	
+#main_thumb{
+	float: right;
+	margin-top: -10px;
+}
+	
+#homelogo{
+padding-left: 10px;
+margin-bottom: -25px;
+
+
+}
+#Welcome{
+color: #BDB76B;
+text-align: center;
+padding-right: 0px;
+font-size: 70%
+}
+
+#add_phone{
+color: #BDB76B;
+font-size: 40%;
+text-align: right;
+padding-right: 15px;
+
+}	
+
+#main_info{
+	font-family: Palatino Linotype;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+	color: #BDB76B;
+}
+
+
+
+.main_camp{
+	width: 375px;
+	height: 165px;
+	margin: 30px;
+	background-color : #191970;
+	border-radius: 15px;
+	border-style: outset;
+	
+}
+
+
+#tech_thumb{
+	float: left;
+	padding: 10px;
+}
+
+#tech_info{
+	font-family: Palatino Linotype;
 	text-align: right;
-	padding-right: 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.tech_camp{
+	width: 375px;
+	height: 165px;
+	margin: 30px;
+	background-color :#006400;
+	border-radius: 15px;
+	border-style: outset;
 	
-	}	
+}
+
+#arts_thumb{
+	float: right;
+	margin-top: 5px;
+	padding-right: 10px;
+}
+
+#arts_info{
+	font-family: Palatino Linotype;
+	//text-align: left;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.arts_camp{
+	width: 375px;
+	height: 165px;
+	margin: 30px;
+	background-color :  #8B0000;
+	border-radius: 15px;
+	border-style: outset;
 	
-	#main_info{
-		font-family: Palatino Linotype;
-		text-align: left;
-		padding: 10px;
-		font-size: 15px;
-	}
-	
-	
-	.main_camp{
-		width: 400px;
-		height: 145px;
-		margin: 50px;
-		background-color : green;
-		
-	}
-	
-	#tech_thumb{
-		float: left;
-		padding: 10px;
-	}
-	
-	#tech_info{
-		font-family: Palatino Linotype;
-		text-align: right;
-		padding: 10px;
-		font-size: 15px;
-	}
-	
-	.tech_camp{
-		width: 400px;
-		height: 165px;
-		margin: 50px;
-		background-color : aqua;
-		
-	}
-	
-	#arts_thumb{
-		float: right;
-		padding: 10px;
-	}
-	
-	#arts_info{
-		font-family: Palatino Linotype;
-		text-align: left;
-		padding: 10px;
-		font-size: 15px;
-	}
-	
-	.arts_camp{
-		width: 400px;
-		height: 145px;
-		margin: 50px;
-		background-color : yellow;
-		
-	}
-	
-	#Campuses{
-	
-	text-align: center;
-	padding-top: 2em;
-	color: black;
-	}
-	
-	#artsh1 {
-	color: #DDDDFF;
-	text-align: center;
-	font-size: 50px;
-	padding: 20px;
+}
+
+#Campuses{
+
+text-align: center;
+padding-top: 2em;
+color: black;
+}
+
+#artsh1 {
+color: #DDDDFF;
+text-align: center;
+font-size: 50px;
+padding: 20px;
 	background-color: #ed560b;	
 	margin: -10px;
 	border-bottom: solid thick #BDB76B
@@ -118,18 +205,24 @@
 #events {
 	border: solid thin black;
 	font-family: Georgia;
-	background-color: #e29d5f;
+	background-color: #DCDCDC;
 	font-size: 100%;
 	padding: 15px;
-	margin: 0px 20px 20px 55px;
-	width: 200px;
+	margin: 20px 20px 20px 55px;
+	width: 300px;
 }
 
 #event_title{
 	text-align: center;
 	border: solid thin black;
 	font-family: Georgia;
-	background-color: beige ;
+	background-color: #191970;
+	color: #BDB76B;
+}
+
+
+#register {
+	text-align: center;
 }
 
 #footer {
@@ -142,3 +235,16 @@
 	font-size: 100%;
 	clear: both;
 }
+
+footer {
+	background-color: #c0c0c0;
+	color: #000000;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 100%;
+	clear: both;
+
+}
+

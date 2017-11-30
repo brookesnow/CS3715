@@ -4,6 +4,12 @@ body {
 	font-family: Arial;
 }
 
+#homelogo{
+	float: left;
+	margin-top: 3%
+}
+
+
 h1 {
 	text-align: center;
 	color: #BDB76B;
@@ -12,6 +18,18 @@ h1 {
 	background-color: #191970;	
 	margin: -10px;
 	border-bottom: solid thick #BDB76B
+}
+
+#Welcome {
+	font-size: 100%;
+	margin-top: -2%;
+}
+
+#add_phone {
+	font-size: 40%;
+	float: right;
+	margin-top: -5%
+	
 }
 
 .navi {
@@ -31,7 +49,6 @@ h1 {
 
 .campush1 {
 		padding: 50px;
-	
 }
 
 #arts-header {
@@ -106,6 +123,7 @@ th, td {
 
 .catalog {
 	font-size: 120%;
+	text-align: center;
 }
 
 #tech-catalog th {
@@ -167,6 +185,15 @@ footer {
 	clear:both;
 	padding: 5px;
 	text-align: center;
+	
 }
 	
+#map {
+        height: 75%;
+        width: 100%;	
+}
 
+#register {
+	text-align: center;
+}
+}
