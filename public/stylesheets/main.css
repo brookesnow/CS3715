@@ -18,10 +18,7 @@ form{
 	width: 100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
+	}
 
 h1 {
 	text-align: center;
@@ -54,6 +51,11 @@ h3 {
 	background-color: #191970;	
 	margin: -10px;
 	border-bottom: solid thick #BDB76B
+}
+
+.main_camp form{
+	float: left;
+	
 }
 
 #techh1 {
@@ -139,7 +141,7 @@ p {
 
 #Campuses{
 	
-	padding-left: 1300px;
+	padding-left: 700px;
 	color: black;
 }
 
@@ -158,7 +160,7 @@ p {
 
 .main_camp{
 	width: 600px;
-	height: 275px;
+	height: 175px;
 	margin: 50px;
 	background-color : #EEE8AA;
 	margin-left: 200px;
@@ -182,7 +184,7 @@ p {
 
 .tech_camp{
 	width: 600px;
-	height: 275px;
+	height: 175px;
 	margin: 50px;
 	background-color : #EEE8AA;
 	margin-left: 200px;
@@ -206,7 +208,7 @@ p {
 
 .arts_camp{
 	width: 600px;
-	height: 275px;
+	height: 175px;
 	margin: 50px;
 	background-color : #EEE8AA;
 	margin-left: 200px;
@@ -295,4 +297,8 @@ p {
 	margin-top: 0px;
 	border-radius: 15px;
 	border-style: outset;
+}
+
+.container:after {
+    clear: both;
 }
