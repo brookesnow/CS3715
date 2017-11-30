@@ -1,0 +1,304 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Arial;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form{
+	font-family: Arial;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+#allcontent{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	background-color: #191970;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+}
+
+h2 {
+	padding-right: 100px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#Main_header{
+	
+	width: 100%;
+	background-color: #191970;
+}
+
+#mainh1 {
+	color: #DAC8BF;
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	background-color: #191970;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+}
+
+.main_camp form{
+	float: left;
+	
+}
+
+#techh1 {
+	text-align: center;
+	font-size: 42px;
+	padding: 20px;
+	background-color: #6666BA;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+}	
+
+#artsh1 {
+	color: #DDDDFF;
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	background-color: #ed560b;	
+	margin: -10px;
+	border-bottom: solid thick #BDB76B
+}
+
+p {
+	text-align: center;
+}
+
+#homeImage {
+	border: solid black medium;
+	margin: 20px;
+}
+
+.nav {
+	width: 200px;
+	background-color: white;
+	margin-top: 0px;
+	margin-left: -10px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-right: 575px;
+	float: right;
+	position: absolute:
+}
+
+.navi {
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: -10px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.navi a {
+	border-right: solid thin black;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+
+
+.about {
+	text-align: center;
+}
+
+#homelogo{
+	float: left;
+	margin-top: 2%;
+	
+}
+
+#Welcome{
+	color: #FFFFF0;
+	margin-top: 2%;
+	padding-right: 100px;
+}
+
+#add_phone{
+	color: #FFFFF0;
+	font-size: 30%;
+	text-align: right;
+	padding-right: 100px;
+	
+}
+
+#Campuses{
+	
+	padding-left: 700px;
+	color: black;
+}
+
+#main_thumb{
+	float: right;
+	padding: 10px;
+}
+
+#main_info{
+	font-family: Palatino Linotype;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+.main_camp{
+	width: 600px;
+	height: 175px;
+	margin: 50px;
+	background-color : #EEE8AA;
+	margin-left: 200px;
+	margin-top: 0px;
+	border-radius: 15px;
+	border-style: outset;
+	
+}
+
+#tech_thumb{
+	float: left;
+	padding: 10px;
+}
+
+#tech_info{
+	font-family: Palatino Linotype;
+	text-align: right;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.tech_camp{
+	width: 600px;
+	height: 175px;
+	margin: 50px;
+	background-color : #EEE8AA;
+	margin-left: 200px;
+	border-radius: 15px;
+	border-style: outset;
+	
+	
+}
+
+#arts_thumb{
+	float: right;
+	padding: 10px;
+}
+
+#arts_info{
+	font-family: Palatino Linotype;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.arts_camp{
+	width: 600px;
+	height: 175px;
+	margin: 50px;
+	background-color : #EEE8AA;
+	margin-left: 200px;
+	border-radius: 15px;
+	border-style: outset;
+	
+	
+}
+
+#footer {
+	background-color: #c0c0c0;
+	color: #000000;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 100%;
+	clear: both;
+}
+
+#events {
+	
+	font-family: Arial;
+	background-color: #DCDCDC;
+	font-size: 100%;
+	padding: 25px;
+	color: black;
+	margin: 50px 0px -100px 50px;
+	width: 200px;
+	position: absolute;
+	float: float;
+	border-style: outset;
+	
+}
+
+
+
+
+
+#event_title{
+	text-align: center;
+	font-family: Arial;
+	background-color: #191970;
+	border-bottom: solid thin black;
+	font-size: 140%;
+	color: white;
+	border-radius: 5px;
+}
+
+#events_list{
+	text-align: center;
+	font-family: Arial;
+	background-color: #191970;
+	font-size: 140%;
+	color: white;
+	border-radius: 5px;
+}
+
+#Student_Name{
+	color: #FFFFF0;
+	text-align: center;
+	font-size: 45%;
+	margin-top: 2%;
+	padding-right: 250px;
+}
+
+#Student_Vitals{
+	color: #FFFFF0;
+	font-size: 25%;
+	text-align: right;
+	padding-right: 90px;
+}
+
+#Student_Courses{
+	
+	padding-left: 1300;
+	color: black;
+}
+
+#Student_Course_Area{
+	width: 600px;
+	height: 175px;
+	margin: 50px;
+	background-color : #EEE8AA;
+	margin-left: 200px;
+	margin-top: 0px;
+	border-radius: 15px;
+	border-style: outset;
+}
+
+.container:after {
+    clear: both;
+}
