@@ -11,7 +11,7 @@ Group: Mike White, Brooke Snow, Morgan Marshall, Pranav Pradeep
 
 
 Our website allows the user to locally store their information, including adding/deleted as well as registering courses for particular
-students and/or campuses. OUr website also allows the user to get directions from MUN to a selected few landmarks around St.Johns
+students and/or campuses. Our website also allows the user to get directions from MUN to a selected few landmarks around St.Johns
 Including: 
 		Mun Botanical Gardens
 		Bannerman Park
@@ -22,6 +22,7 @@ We also allow the user to update and submit new information regarding new events
 
 Point Distribution (for 4 members of the group):
 
-	Mike White - 20/40
-	Brooke Snow - 20/40
-	Pranav Pradeep - 
+	Mike White - 15 (Setting up the server, the Node.Js, compliling the website, localstorage, HTML/JS)
+	Brooke Snow - 15 (CSS/HTML/Fixed JS files, JS for Student and Course Pages)
+	Pranav Pradeep - 10 (HTML/Functionality for Google Map implementation)
+	Morgan Marshall - 0 (Did not supply anything)
